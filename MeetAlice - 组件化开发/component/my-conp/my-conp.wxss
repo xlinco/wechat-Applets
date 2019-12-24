@@ -1,0 +1,4 @@
+/* component/my-conp/my-conp.wxss */
+.box{
+  background: #666;
+}

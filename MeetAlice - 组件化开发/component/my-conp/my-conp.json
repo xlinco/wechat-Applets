@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-conp2":"/component/my-conp2/my-conp2"
+  }
+}

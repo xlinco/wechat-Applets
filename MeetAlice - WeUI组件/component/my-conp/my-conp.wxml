@@ -1,0 +1,6 @@
+<!--component/my-conp/my-conp.wxml-->
+<!-- <text>component/my-conp/my-conp.wxml</text> -->
+<view>a:{{a}}</view>
+<view>b:{{b}}</view>
+<view>计算结果:{{sum}}</view>
+<button bindtap="onTap">点击计算</button>

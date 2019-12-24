@@ -1,0 +1,2 @@
+<!--component/my-conp3/my-conp3.wxml-->
+<view class="title my-class">{{dataA}}</view>

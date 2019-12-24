@@ -1,0 +1,35 @@
+<!-- pages/index/index.wxml -->
+<!-- <text>index.html</text> -->
+<view class="container">
+  <!-- <my-conp>
+    <view slot="slot1">这是插槽1</view>
+    <view slot="slot2">这是插槽2</view>
+  </my-conp> -->
+
+  <!-- 组件样式 -->
+  <!-- <view class="title">页面中的title</view>
+  <my-wxss></my-wxss> -->
+
+  <!-- 组件与页面的数据传递 -->
+  <!-- <my-conp3 dataA="{{title}}"></my-conp3>
+  <my-conp3 my-class="red"></my-conp3>
+  <my-conp3 my-class="blue"></my-conp3> -->
+
+  <!-- 组件与页面通过事件交互 -->
+  <!-- <my-conp4 bindsearch="search"></my-conp4> -->
+
+  <!-- tab标签栏实战 -->
+  <!-- <my-tab tabArr="{{cates}}" bindtab="itemClick"></my-tab> -->
+
+  <!-- 通过组件对象直接调用组件的方法 -->
+  <!-- <button bindtap="count">计数</button>
+  <button bindtap="removeComp">移除</button>
+  <my-count wx:if="{{showe}}" id="count"></my-count> -->
+
+  <!-- 数据监听器 -->
+  <!-- <my-obs dataA="DDDD"></my-obs> -->
+
+  <!-- 组件的代码共享 -->
+  <my-behavior dataA="标题"></my-behavior>
+  
+</view>

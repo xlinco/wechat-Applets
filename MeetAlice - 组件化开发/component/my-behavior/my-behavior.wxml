@@ -1,0 +1,4 @@
+<!--component/my-behavior/my-behavior.wxml-->
+<text>{{name}}</text>
+<text>{{dataA}}</text>
+<button bindtap="setName">修改名字</button>

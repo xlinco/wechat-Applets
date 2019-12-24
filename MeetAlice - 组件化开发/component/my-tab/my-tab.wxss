@@ -1,0 +1,14 @@
+/* component/my-tab/my-tab.wxss */
+.tab-box{
+  display: flex;
+  background: #999;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.tab-item{
+  flex: 1;
+  text-align: center;
+}
+.tab-box .active{
+  color: #fff;
+}

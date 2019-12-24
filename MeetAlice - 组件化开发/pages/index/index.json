@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "my-wxss": "/component/my-wxss/my-wxss",
+    "my-conp3": "/component/my-conp3/my-conp3",
+    "my-conp4": "/component/my-conp4/my-conp4",
+    "my-tab": "/component/my-tab/my-tab",
+    "my-count": "/component/my-count/my-count",
+    "my-obs": "/component/my-obs/my-obs",
+    "my-behavior": "/component/my-behavior/my-behavior"
+  }
+}

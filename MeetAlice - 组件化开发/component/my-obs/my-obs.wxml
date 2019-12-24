@@ -1,0 +1,3 @@
+<!--component/my-obs/myobs.wxml-->
+<view>{{num}}</view>
+<button bindtap="increase">加</button>

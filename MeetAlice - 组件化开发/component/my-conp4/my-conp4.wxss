@@ -1,0 +1,4 @@
+/* component/my-conp4/my-conp4.wxss */
+.search{
+  background: #ddd;
+}

@@ -1,0 +1,19 @@
+<!--pages/more-movie/more-movie.wxml-->
+<import src="../../templates/movie-templates/movie-templates.wxml"/>
+<scroll-view scroll-y="true" style="height:100vh" bindscrolltolower="loadMore">
+  <view class="movie_list">
+    <block wx:for="{{moreData}}" wx:key="key">
+      <template is="movieItem" data="{{...item}}"></template>
+    </block>
+  </view>
+  <view hidden="{{hidden}}" style="text-align:center">加载中...</view>
+</scroll-view>
+
+<!-- <view>
+  <view class="movie_list">
+    <block wx:for="{{moreData}}" wx:key="key">
+      <template is="movieItem" data="{{...item}}"></template>
+    </block>
+  </view>
+  <view hidden="{{hidden}}" style="text-align:center">加载中...</view>
+</view> -->

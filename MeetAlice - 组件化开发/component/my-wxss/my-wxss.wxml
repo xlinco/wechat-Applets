@@ -1,0 +1,3 @@
+<!--component/my-wxss/my-wxss.wxml-->
+<!-- <text>component/my-wxss/my-wxss.wxml</text> -->
+<view class="title">这是组件的title</view>

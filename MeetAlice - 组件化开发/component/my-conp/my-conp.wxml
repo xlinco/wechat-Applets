@@ -1,0 +1,8 @@
+<!--component/my-conp/my-conp.wxml-->
+<!-- <text>component/my-conp/my-conp.wxml</text> -->
+<view class="box">
+  <text>这是my-conp1组件</text>
+  <slot name="slot1"></slot>
+  <slot name="slot2"></slot>
+  <my-conp2></my-conp2>
+</view>

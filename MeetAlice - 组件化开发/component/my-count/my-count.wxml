@@ -1,0 +1,2 @@
+<!--component/my-count/my-count.wxml-->
+<view>{{counter}}</view>

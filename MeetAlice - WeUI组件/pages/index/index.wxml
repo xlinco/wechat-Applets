@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+
+<mp-searchbar ext-class="search" placeholder="请输入关键字搜索" bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+
+<mp-navigation-bar loading="{{loading}}" show="{{show}}" animated="{{animated}}" color="{{color}}" background="{{background}}" title="UI组件库" back="{{true}}">
+  <view slot="left">back为false生效</view>
+</mp-navigation-bar>
+
+<my-conp></my-conp>

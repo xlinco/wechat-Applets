@@ -1,0 +1,2 @@
+<!--component/my-conp4/my-conp4.wxml-->
+<input class="search" placeholder="搜索" bindconfirm="getSearchText"></input>

@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap="getAddress">获取收货地址</button>
+  <button bindtap="chooseImage">选择图片</button>
+  <button bindtap="saveImg">保存图片</button>
+  <button open-type="share">转发</button>
+</view>

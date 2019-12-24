@@ -1,0 +1,40 @@
+<template name="movie_subject">
+  <!-- 电影分类专区列表 -->
+  <view class="subject">
+    <view class="subject_top">
+      <text class="title">{{subItem.subjectTitle}}</text>
+      <navigator class="lookMore" url="/pages/more-movie/more-movie?title={{subItem.subjectTitle}}">查看更多></navigator>
+    </view>
+    <scroll-view class="moveList" scroll-x="true">
+      <block wx:for="{{subItem.movieList}}" wx:key="key">
+        <template is="movieItem" data="{{...item}}"></template>
+      </block>
+    </scroll-view>
+  </view>
+</template>
+
+<template name="movieItem">
+  <navigator class="movie_item" url="/pages/movie-detail/movie-detail?title={{name}}">
+    <view class="movie_img">
+      <image src="{{movie_img}}"></image>
+    </view>
+    <view class="name">{{name}}</view>
+    <template is="star" data="{{rate}}"></template>
+  </navigator>
+</template>
+
+<wxs src="../../wxs/star.wxs" module="starUtil" />
+<template name="star">
+  <view class="star_box">
+    <view class="stars">
+    <block wx:for="{{starUtil.formatRate(rate)}}" wx:key="key">
+        <view class="iconfont icon-xingxing {{item==1?'light':''}}"></view>
+      </block>
+    </view>
+    <text class="star_score">{{rate}}</text>
+  </view>
+</template>
+
+<!-- <template name="movie_item">
+  
+</template> -->
